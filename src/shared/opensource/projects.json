@@ -1,33 +1,103 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "R_kgDOIcvN6g",
+      "name": "AirOpsManager-AirlinesManagementSystem",
+      "createdAt": "2022-11-16T21:40:57Z",
+      "url": "https://github.com/SyedMuhammadFaheem/AirOpsManager-AirlinesManagementSystem",
+      "description": "Flight Management System using MERN Stack. It consists of an Admin Panel having specified permissions to access the database along with a Customer Panel having specified CRUD operations control and book as many tickets as they want. This was a fifth semester project for Database Systems course of FAST NUCES.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOLchRpQ",
+      "name": "Budget-Tracker-App",
+      "createdAt": "2024-03-06T13:27:44Z",
+      "url": "https://github.com/SyedMuhammadFaheem/Budget-Tracker-App",
+      "description": "Budget Tracker is a web app made with the PERN stack. It helps you manage expenses, track income, and plan savings securely. With features like Google login and clear permissions, you can trust your data's privacy. Whether it's for personal use or small-scale finance tracking, our app keeps things easy and reliable.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOLNEInw",
+      "name": "LeetHub",
+      "createdAt": "2024-02-02T15:10:00Z",
+      "url": "https://github.com/SyedMuhammadFaheem/LeetHub",
+      "description": "A chrome extension which automatically commits your leetcode solution to a predefined repository you connected earlier.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJcRpKA",
+      "name": "Urdu-News-Clustering",
+      "createdAt": "2023-04-27T23:50:11Z",
+      "url": "https://github.com/SyedMuhammadFaheem/Urdu-News-Clustering",
+      "description": "A web app for clustering Urdu news articles by utilizing a provided research paper. This platform efficiently organizes and categorizes similar news based on provided queries.",
+      "isFork": false,
+      "languages": [
         {
           "name": "Jupyter Notebook",
           "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "R_kgDOKGVOgw",
+      "name": "FacialRecognition-FlaskAPI",
+      "createdAt": "2023-08-12T12:43:34Z",
+      "url": "https://github.com/SyedMuhammadFaheem/FacialRecognition-FlaskAPI",
+      "description": "A Web API for adding and getting facial data written in flask which uses a face recognition system written on Python using openCV. Database could be added extensively and could be used in various authentication systems.",
       "isFork": false,
       "languages": [
         {
@@ -37,86 +107,16 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "id": "R_kgDOJBrIbg",
+      "name": "InformationRetrieval",
+      "createdAt": "2023-02-23T19:41:14Z",
+      "url": "https://github.com/SyedMuhammadFaheem/InformationRetrieval",
+      "description": "This repo consists of all the assignments, projects, tasks of Information Retrieval course of FAST NUCES Spring 2023.",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
         }
       ]
     }

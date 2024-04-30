@@ -58,7 +58,10 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
-                <h1 className="blog-heading-text" style={{ color: theme.text }}>
+                <h1
+                  className="blog-heading-text"
+                  style={{ color: theme.text, marginTop: "150px" }}
+                >
                   {blogSection["title"]}
                 </h1>
                 <p

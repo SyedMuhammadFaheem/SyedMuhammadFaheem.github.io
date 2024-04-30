@@ -10,6 +10,7 @@ export default class BlogsImg extends Component {
         xmlns="http://www.w3.org/2000/svg"
         width="1061"
         height="742.85506"
+        style={{ marginTop: "150px" }}
         viewBox="0 0 1061 742.85506"
       >
         <title>task</title>
