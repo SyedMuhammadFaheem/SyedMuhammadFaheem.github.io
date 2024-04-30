@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "SyedMuhammadFaheem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://SyedMuhammadFaheem.github.io",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
