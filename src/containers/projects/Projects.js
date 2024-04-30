@@ -10,6 +10,7 @@ import { greeting } from "../../portfolio.js";
 export default function Projects() {
   const [repo, setrepo] = useState([]);
 
+  const moreProjects = greeting.githubProfile + "?tab=repositories";
   useEffect(() => {
     getRepoData();
   }, []);
@@ -77,7 +78,7 @@ export default function Projects() {
       <Button
         text={"More Projects"}
         className="project-button"
-        href={greeting.githubProfile}
+        href={moreProjects}
         newTab={true}
       />
     </div>

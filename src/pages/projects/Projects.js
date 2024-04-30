@@ -16,6 +16,7 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
+const moreProjects = greeting.githubProfile + "?tab=repositories";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
@@ -57,7 +58,7 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href={greeting.githubProfile}
+          href={moreProjects}
           newTab={true}
           theme={theme}
         />
