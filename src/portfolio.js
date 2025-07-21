@@ -25,9 +25,8 @@ const greeting = {
   subTitle:
     "An enthusiastic individual with a commitment to excellence along with an extensive understanding of core programming concepts, databases, machine learning and hosting services. Team-oriented and hardworking with good communication skills.",
   resumeLink:
-    "https://drive.google.com/file/d/1n_N2dikdb2VxZfkb5PwSugmg1NSBBVC9/view?usp=sharing",
-  portfolio_repository:
-    "https://github.com/SyedMuhammadFaheem/PersonalPortfolio",
+    "https://drive.google.com/file/d/1Rv8FCGmbcYFAg_1cwWLQnjJa1U2EvmRm/view?usp=sharing",
+  portfolio_repository: "https://github.com/SyedMuhammadFaheem",
   githubProfile: "https://github.com/SyedMuhammadFaheem",
 };
 
@@ -384,10 +383,10 @@ const degrees = {
       alt_name: "FAST NUCES",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, PDC, AI etc.",
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, PDC, AI, Software Testing etc.",
         "⚡ Apart from this, I have done courses on Data Science, Testing and Scraping and Full Stack Development.",
-        "⚡ 4x Deans List Honors",
-        "⚡ CGPA: 3.6/4.0",
+        "⚡ 5x Deans List Honors",
+        "⚡ CGPA: 3.63/4.0 - Cum Laude",
       ],
       website_link: "https://www.nu.edu.pk/",
     },
@@ -475,15 +474,34 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Full Stack Developer",
+          title: "Associate Software Engineer",
+          company: "VentureDive",
+          company_url: "https://www.venturedive.com/",
+          logo_path: "venture-dive.png",
+          duration: "June 2024 - Present",
+          location: "Karachi, Pakistan (Hybrid)",
+          descriptions: [
+            "• Developed core PatientQ modules including business/role management, custom scheduling (React Big Calendar), Twilio-powered real-time communication, and built a workflow UI for live status tracking. ",
+            "• Shipped a multi-tenant PWA for planogram compliance in 1.5 months, integrating CV model APIs, image uploads, and compliance visualization for enterprise clients like Unilever and Colgate.",
+            "• Contributed to Falcon by integrating Stripe payments, AWS Cognito with Lambda-based rate limiting, and Firebase Authentication. Improved UI flows and unit test coverage.",
+            "• Added Google Analytics and resolved production UI/logical issues for a UAE-based client in The Helicopter Project.",
+            "• Delivered an internal QA tool replacing TestRails, improving test management for multiple teams. Built complex Ant Design components and managed daily Docker deployments on a Linux VM.",
+            "• Supported Mixpanel integration, static code checks via SonarQube, documentation, and frontend architecture improvements under tech lead guidance.",
+          ],
+          color: "#000000",
+        },
+        {
+          title: "Full Stack Developer (Part Time)",
           company: "National Research Program for Universities - NRPU",
           company_url:
             "https://www.hec.gov.pk/english/services/universities/nrpu/Pages/Introduction.aspx",
           logo_path: "hec.png",
-          duration: "October 2023 - Present",
+          duration: "October 2023 - October 2024",
           location: "Karachi, Pakistan (Remote)",
-          description:
-            "Designed and developed a scalable full stack IoT integrated Web App which helps monitor cattle animals health statuses using Next, Node, Express and MongoDB. Designed and developed a live data streaming server which receives data from remote IoT devices, processes it and captures them into a cloud database.",
+          descriptions: [
+            "• Built a full-stack IoT-enabled web app to monitor cattle health using Next.js, Node.js, and MongoDB.",
+            "• Developed a real-time data ingestion service to process and store sensor data from remote IoT devices.",
+          ],
           color: "#000000",
         },
       ],
@@ -496,10 +514,13 @@ const experience = {
           company: "VentureDive",
           company_url: "https://www.venturedive.com/",
           logo_path: "venture-dive.png",
-          duration: "March 2024 - Present",
+          duration: "March 2024 - June 2024",
           location: "Karachi, Pakistan (Hybrid)",
-          description:
-            "Added localization to all the existing entities, catered minor bug fixes and helped QA to resolve page structure and data related issues using Strapi CMS. Designed and developed a full-fledged full stack Budget Tracker App which can be used to track expenses, savings and income and help setup timely saving goals using React, Node, Express, PostgreSQL and TypeORM.",
+          descriptions: [
+            "• Added localization to all the existing entities, catered minor bug fixes and helped QA to resolve page structure and data related issues using Strapi CMS.",
+            "• Designed and developed a full-fledged full stack Budget Tracker App which can be used to track expenses, savings and income and help setup timely saving goals using React, Node, Express, PostgreSQL and TypeORM.",
+            "• Added new features and addressed major bug fixes on an internal QA tool web app, similar to TestRails, using React and TypeScript, in preparation for a beta release",
+          ],
           color: "#000000",
         },
         {
@@ -509,8 +530,10 @@ const experience = {
           logo_path: "motive.png",
           duration: "July 2023 - Sept 2023",
           location: "California, United States (Remote)",
-          description:
-            "Developed unit tests (75% test coverage) by scraping HTML docs to verify the logic and results for different Electronic Log PDF sections which in turn increased the efficiency of code refactoring using Selenium and Ruby on Rails. Built Docker images for new additional dependencies and pushed them to AWS ECR instance.",
+          descriptions: [
+            "• Improved backend reliability by contributing unit tests covering 25% of the ELD PDF module.",
+            "• Parsed HTML using Selenium to ensure accuracy and support safer refactoring. Streamlined development workflows by building Docker images with updated dependencies and publishing them to AWS ECR.",
+          ],
           color: "#ee3c26",
         },
       ],
@@ -578,18 +601,17 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Nazimabad Block 1, Karachi, Sindh, Pakistan 74600",
+    subtitle: "Karachi, Sindh, Pakistan 74600",
     locality: "Karachi",
     country: "Pakistan",
     region: "Sindh",
     postalCode: "74600",
-    streetAddress: "Nazimabad Block 1",
     avatar_image_path: "address_image.svg",
     // location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
   },
   phoneSection: {
     title: "Personal Phone",
-    subtitle: "+92331613326",
+    subtitle: "+923312613326",
   },
 };
 
