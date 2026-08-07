@@ -12,6 +12,7 @@ import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
+    const { theme, onToggle } = this.props;
     return (
       <BrowserRouter basename="/">
         <Switch>
@@ -20,54 +21,64 @@ export default class Main extends Component {
             exact
             render={(props) =>
               settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
+                <Splash {...props} theme={theme} onToggle={onToggle} />
               ) : (
-                <Home {...props} theme={this.props.theme} />
+                <Home {...props} theme={theme} onToggle={onToggle} />
               )
             }
           />
           <Route
             path="/home"
-            render={(props) => <Home {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <Home {...props} theme={theme} onToggle={onToggle} />
+            )}
           />
           <Route
             path="/experience"
             exact
             render={(props) => (
-              <Experience {...props} theme={this.props.theme} />
+              <Experience {...props} theme={theme} onToggle={onToggle} />
             )}
           />
           <Route
             path="/education"
             render={(props) => (
-              <Education {...props} theme={this.props.theme} />
+              <Education {...props} theme={theme} onToggle={onToggle} />
             )}
           />
           <Route
             path="/opensource"
             render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
+              <Opensource {...props} theme={theme} onToggle={onToggle} />
             )}
           />
           <Route
             path="/contact"
-            render={(props) => <Contact {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <Contact {...props} theme={theme} onToggle={onToggle} />
+            )}
           />
 
           {settings.isSplash && (
             <Route
               path="/splash"
-              render={(props) => <Splash {...props} theme={this.props.theme} />}
+              render={(props) => (
+                <Splash {...props} theme={theme} onToggle={onToggle} />
+              )}
             />
           )}
 
           <Route
             path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <Projects {...props} theme={theme} onToggle={onToggle} />
+            )}
           />
           <Route
             path="*"
-            render={(props) => <Error404 {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <Error404 {...props} theme={theme} onToggle={onToggle} />
+            )}
           />
         </Switch>
       </BrowserRouter>

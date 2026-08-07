@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import "./ToggleSwitch.scss";
+import "./ToggleSwitch.css";
 import { lightTheme } from "../../theme";
 import styled from "styled-components";
 
 export const ToggleDiv = styled.div`
-  margin-top: 40px;
-  margin-right: 5px;
-  float: right;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  ${(props) =>
+    props.inline
+      ? ""
+      : `
+    margin-top: 40px;
+    margin-right: 5px;
+    float: right;
+  `}
 `;
 
 export const SunSvg = styled.svg`
@@ -26,7 +32,7 @@ export default class ToggleSwitch extends Component {
     const back = theme.text;
     const butt = theme.body;
     return (
-      <ToggleDiv>
+      <ToggleDiv inline={this.props.inline}>
         <SunSvg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

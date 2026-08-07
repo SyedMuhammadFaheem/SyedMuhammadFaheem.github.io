@@ -3,12 +3,15 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
+import ProfessionalProjectCard from "../../components/professionalProjectCard/ProfessionalProjectCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
+  professionalProjectsHeader,
+  professionalProjects,
   publicationsHeader,
   publications,
 } from "../../portfolio.js";
@@ -22,7 +25,7 @@ class Projects extends Component {
     const theme = this.props.theme;
     return (
       <div className="projects-main">
-        <Header theme={theme} />
+        <Header theme={theme} onToggle={this.props.onToggle} />
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
@@ -50,9 +53,51 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+        <div className="basic-projects">
+          <Fade bottom duration={2000} distance="40px">
+            <div className="publications-heading-text-div">
+              <h1
+                className="publications-heading-text"
+                style={{ color: theme.text }}
+              >
+                {professionalProjectsHeader.title}
+              </h1>
+              <p
+                className="projects-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {professionalProjectsHeader.description}
+              </p>
+            </div>
+          </Fade>
+        </div>
+        <div className="repo-cards-div-main">
+          {professionalProjects.data.map((project) => {
+            return (
+              <ProfessionalProjectCard
+                key={project.name}
+                project={project}
+                theme={theme}
+              />
+            );
+          })}
+        </div>
+
+        <div className="basic-projects">
+          <Fade bottom duration={2000} distance="40px">
+            <div className="publications-heading-text-div">
+              <h1
+                className="publications-heading-text"
+                style={{ color: theme.text }}
+              >
+                Open Source &amp; Personal Projects
+              </h1>
+            </div>
+          </Fade>
+        </div>
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+            return <GithubRepoCard key={repo.id} repo={repo} theme={theme} />;
           })}
         </div>
         <Button

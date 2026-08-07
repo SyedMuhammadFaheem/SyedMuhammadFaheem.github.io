@@ -7,13 +7,14 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Faheem's Portfolio",
+  title:
+    "Syed Muhammad Faheem — Full Stack Engineer (React, NestJS, AWS) — Karachi",
   description:
     "Full Stack Engineer with 2+ years building scalable, full-stack platforms across healthcare, government, retail, and aviation. Specialised in React, NestJS, PostgreSQL, and AWS.",
   og: {
-    title: "Syed Muhammad Faheem",
+    title: "Syed Muhammad Faheem — Full Stack Engineer",
     type: "website",
-    url: "http://SyedMuhammadFaheem.com/",
+    url: "https://syedmuhammadfaheem.github.io/",
   },
 };
 
@@ -514,6 +515,45 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+const professionalProjectsHeader = {
+  title: "Professional Work",
+  description:
+    "Platforms I've built and shipped at VentureDive, spanning healthcare, government, retail and aviation.",
+};
+
+const professionalProjects = {
+  data: [
+    {
+      name: "Healthcare SaaS Platform",
+      company: "VentureDive",
+      description:
+        "Custom appointment scheduling (React Big Calendar) and a Twilio-powered 3-channel communication suite (calls, SMS, email), plus a real-time workflow status builder for live tracking of patient journey stages.",
+      tech: ["NestJS", "PostgreSQL", "React", "Twilio"],
+    },
+    {
+      name: "AI-Powered Government Employment Platform",
+      company: "VentureDive",
+      description:
+        "Scalable backend integrating 3 AWS services — OpenSearch for full-text global search, Redis for query performance optimisation, and SQS for async AI/ML data pipelines.",
+      tech: ["NestJS", "PostgreSQL", "AWS OpenSearch", "Redis", "SQS"],
+    },
+    {
+      name: "Multi-Tenant Retail Compliance PWA",
+      company: "Unilever & Colgate",
+      description:
+        "Shipped in 6 weeks for 2 multinational enterprise clients; integrated CV model APIs for automated shelf image analysis, with interactive compliance dashboards on a multi-tenant PostgreSQL schema.",
+      tech: ["React", "NestJS", "PostgreSQL", "CV APIs"],
+    },
+    {
+      name: "B2C Aviation Booking Platform",
+      company: "VentureDive",
+      description:
+        "End-to-end booking management module: flight listing, guest search by booking ID, add-on selection, payment gateway integration, and cancellation with partial refunds.",
+      tech: ["Next.js", "TypeScript", "Firebase"],
+    },
+  ],
+};
+
 const publicationsHeader = {
   title: "Publications",
   description: "Some of my published Articles, Blogs and Research.",
@@ -590,6 +630,8 @@ export {
   certifications,
   experience,
   projectsHeader,
+  professionalProjectsHeader,
+  professionalProjects,
   publicationsHeader,
   publications,
   contactPageData,
