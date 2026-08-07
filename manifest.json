@@ -1,9 +1,20 @@
 {
-  "name": "masterPortfolio",
+  "name": "Syed Muhammad Faheem — Portfolio",
   "background_color": "#ffffff",
   "display": "standalone",
-  "icons": [],
-  "short_name": "masterPortfolio",
+  "icons": [
+    {
+      "src": "icons/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "short_name": "Faheem's Portfolio",
   "start_url": ".",
   "theme_color": "#000000"
 }
