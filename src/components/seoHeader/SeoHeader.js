@@ -10,6 +10,11 @@ import {
 } from "../../portfolio.js";
 
 function SeoHeader() {
+  const canonicalUrl =
+    typeof window !== "undefined"
+      ? window.location.origin + window.location.pathname
+      : seo?.og?.url;
+
   let sameAs = [];
   socialMediaLinks
     .filter(
@@ -67,6 +72,7 @@ function SeoHeader() {
       <meta property="og:title" content={seo?.og?.title} />
       <meta property="og:type" content={seo?.og?.type} />
       <meta property="og:url" content={seo?.og?.url} />
+      <link rel="canonical" href={canonicalUrl} />
       <script type="application/ld+json">{JSON.stringify(data)}</script>
     </Helmet>
   );

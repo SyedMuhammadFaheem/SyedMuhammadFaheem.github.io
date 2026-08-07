@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Faheem's Portfolio",
   description:
-    "Enthusiastic individual with a commitment to excellence. Extensive understanding of core programming concepts, databases, machine learning and hosting services. Team-oriented and hardworking with good communication skills",
+    "Full Stack Engineer with 2+ years building scalable, full-stack platforms across healthcare, government, retail, and aviation. Specialised in React, NestJS, PostgreSQL, and AWS.",
   og: {
     title: "Syed Muhammad Faheem",
     type: "website",
@@ -21,9 +21,9 @@ const seo = {
 const greeting = {
   title: "Syed Muhammad Faheem",
   logo_name: "FaheemDev",
-  nickname: "Tech Troubleshooter",
+  nickname: "Full Stack Engineer",
   subTitle:
-    "An enthusiastic individual with a commitment to excellence along with an extensive understanding of core programming concepts, databases, machine learning and hosting services. Team-oriented and hardworking with good communication skills.",
+    "Full Stack Engineer with 2+ years building scalable, full-stack platforms across healthcare, government, retail, and aviation. Specialised in React, NestJS, PostgreSQL, and AWS -- proficient in REST API development, performance optimisation, and CI/CD pipelines; experienced leading cross-functional Agile teams and frontend architectures from design to production.",
   resumeLink:
     "https://drive.google.com/file/d/1Rv8FCGmbcYFAg_1cwWLQnjJa1U2EvmRm/view?usp=sharing",
   portfolio_repository: "https://github.com/SyedMuhammadFaheem",
@@ -65,9 +65,9 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
+    name: "Twitter",
     link: "https://twitter.com/fahimspangle/",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
@@ -87,35 +87,20 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Frontend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React and Next.",
-        "⚡ Developing cross platform mobile applications using React Native and Swift.",
-        "⚡ Creating application backend in Node, Express & Flask.",
+        "⚡ Building responsive, design-system-driven UIs using React, Next.js and Tailwind CSS.",
+        "⚡ Building component libraries and state/data-fetching layers with Redux, Ant Design and React TanStack Query.",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#E34F26",
+            color: "#3178C6",
           },
         },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        // {
-        //   skillName: "Sass",
-        //   fontAwesomeClassname: "simple-icons:sass",
-        //   style: {
-        //     color: "#CC6699",
-        //   },
-        // },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -139,10 +124,48 @@ const skills = {
           },
         },
         {
-          skillName: "Swift",
-          fontAwesomeClassname: "skill-icons:swift",
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
           style: {
-            color: "#61DAFB",
+            color: "#06B6D4",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#764ABC",
+          },
+        },
+        {
+          skillName: "Ant Design",
+          fontAwesomeClassname: "simple-icons:antdesign",
+          style: {
+            color: "#0170FE",
+          },
+        },
+        {
+          skillName: "TanStack Query",
+          fontAwesomeClassname: "simple-icons:reactquery",
+          style: {
+            color: "#FF4154",
+          },
+        },
+      ],
+    },
+    {
+      title: "Backend Development",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Building REST APIs and real-time services with NestJS, Node.js and Express.js.",
+        "⚡ Designing relational and NoSQL schemas, and optimising queries with PostgreSQL, MongoDB and Redis.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "NestJS",
+          fontAwesomeClassname: "simple-icons:nestjs",
+          style: {
+            color: "#E0234E",
           },
         },
         {
@@ -167,108 +190,11 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Selenium",
-          fontAwesomeClassname: "skill-icons:selenium",
-          style: {
-            color: "#CB3837",
-          },
-        },
-      ],
-    },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable  models for various deeplearning and statistical use cases.",
-        "⚡ Experience of working with Computer Vision and NLP projects.",
-        "⚡ Experience of visualizing and extracting valuable insights from large datasets.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Scikit",
-          fontAwesomeClassname: "skill-icons:scikitlearn-dark",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "devicon:pandas-wordmark",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Numpy",
-          fontAwesomeClassname: "devicon:numpy-wordmark",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Matplotlib",
-          fontAwesomeClassname: "devicon:matplotlib",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Neural Networks",
-          fontAwesomeClassname: "eos-icons:neural-network",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-
-    {
-      title: "Cloud Infra-Architecture and Databases",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Have knowledge of design and implementation of various relational and NoSQL Databases along with query optimization",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
           },
         },
         {
@@ -286,53 +212,94 @@ const skills = {
           },
         },
         {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#DC382D",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cloud, DevOps & Tools",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Working with AWS services (S3, SQS, Cognito, Lambda, OpenSearch) and Firebase for scalable, event-driven backends.",
+        "⚡ Setting up CI/CD pipelines, containerising services with Docker, and integrating Stripe, Twilio, Jest and SonarQube.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "OpenSearch",
+          fontAwesomeClassname: "simple-icons:opensearch",
+          style: {
+            color: "#005EB8",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
           },
         },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: {
+            color: "#2088FF",
+          },
+        },
+        {
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
+          style: {
+            color: "#635BFF",
+          },
+        },
+        {
+          skillName: "Twilio",
+          fontAwesomeClassname: "simple-icons:twilio",
+          style: {
+            color: "#F22F46",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
+          },
+        },
+        {
+          skillName: "Jest",
+          fontAwesomeClassname: "simple-icons:jest",
+          style: {
+            color: "#C21325",
+          },
+        },
+        {
+          skillName: "SonarQube",
+          fontAwesomeClassname: "simple-icons:sonarqube",
+          style: {
+            color: "#4E9BCD",
+          },
+        },
       ],
     },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -474,33 +441,32 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate Software Engineer",
+          title: "Software Engineer",
           company: "VentureDive",
           company_url: "https://www.venturedive.com/",
           logo_path: "venture-dive.png",
-          duration: "June 2024 - Present",
-          location: "Karachi, Pakistan (Hybrid)",
+          duration: "July 2024 - Present",
+          location: "Karachi, Pakistan",
           descriptions: [
-            "• Developed core PatientQ modules including business/role management, custom scheduling (React Big Calendar), Twilio-powered real-time communication, and built a workflow UI for live status tracking. ",
-            "• Shipped a multi-tenant PWA for planogram compliance in 1.5 months, integrating CV model APIs, image uploads, and compliance visualization for enterprise clients like Unilever and Colgate.",
-            "• Contributed to Falcon by integrating Stripe payments, AWS Cognito with Lambda-based rate limiting, and Firebase Authentication. Improved UI flows and unit test coverage.",
-            "• Added Google Analytics and resolved production UI/logical issues for a UAE-based client in The Helicopter Project.",
-            "• Delivered an internal QA tool replacing TestRails, improving test management for multiple teams. Built complex Ant Design components and managed daily Docker deployments on a Linux VM.",
-            "• Supported Mixpanel integration, static code checks via SonarQube, documentation, and frontend architecture improvements under tech lead guidance.",
+            "• Led frontend architecture from scratch for 3 enterprise portals; established an Untitled UI + Tailwind CSS design system, built a JSON-configurable library of 10+ reusable UI components, and integrated REST APIs using React TanStack Query -- standardising development patterns across the entire frontend codebase.",
+            "• Engineered scalable backend features for an AI-powered government employment platform using NestJS and PostgreSQL; integrated 3 AWS services -- OpenSearch for full-text global search, Redis for query performance optimisation, and SQS for async AI/ML data pipelines -- improving platform scalability and search responsiveness.",
+            "• Shipped a multi-tenant compliance PWA in 6 weeks for 2 multinational enterprise clients (Unilever and Colgate); integrated CV model APIs for automated shelf image analysis, built interactive compliance dashboards, and designed the multi-tenant PostgreSQL schema from scratch.",
+            "• Built the end-to-end booking management module for a B2C aviation platform, delivering 5 core user flows (flight listing, guest search by booking ID, add-on selection, payment gateway integration, and cancellation with partial refunds) using Next.js, TypeScript, and Firebase; resolved security vulnerabilities surfaced in a formal audit and shipped the full prototype in 2 months.",
+            "• Developed custom appointment scheduling (React Big Calendar) and a Twilio-powered 3-channel communication suite (calls, SMS, email) for a healthcare SaaS platform; built a real-time workflow status builder enabling live tracking of patient journey stages using NestJS and PostgreSQL.",
+            "• Mentored 5+ interns directly -- conducting structured code reviews, unblocking day-to-day technical challenges, and independently owning development of internal marketing tooling -- while driving their professional and technical growth through consistent, hands-on mentorship.",
           ],
           color: "#000000",
         },
         {
-          title: "Full Stack Developer (Part Time)",
+          title: "Full Stack Developer (Part-time)",
           company: "National Research Program for Universities - NRPU",
           company_url:
             "https://www.hec.gov.pk/english/services/universities/nrpu/Pages/Introduction.aspx",
           logo_path: "hec.png",
           duration: "October 2023 - October 2024",
-          location: "Karachi, Pakistan (Remote)",
+          location: "Karachi, Pakistan",
           descriptions: [
-            "• Built a full-stack IoT-enabled web app to monitor cattle health using Next.js, Node.js, and MongoDB.",
-            "• Developed a real-time data ingestion service to process and store sensor data from remote IoT devices.",
+            "• Built a full-stack IoT cattle health monitoring platform (Next.js, Node.js, MongoDB) and a real-time sensor data ingestion service, eliminating manual data collection for remote livestock operations.",
           ],
           color: "#000000",
         },
@@ -524,15 +490,14 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Backend Engineering Intern",
+          title: "Backend Engineer (Intern)",
           company: "Motive (formerly KeepTruckin)",
           company_url: "https://gomotive.com/",
           logo_path: "motive.png",
-          duration: "July 2023 - Sept 2023",
-          location: "California, United States (Remote)",
+          duration: "July 2023 - September 2023",
+          location: "Karachi, Pakistan",
           descriptions: [
-            "• Improved backend reliability by contributing unit tests covering 25% of the ELD PDF module.",
-            "• Parsed HTML using Selenium to ensure accuracy and support safer refactoring. Streamlined development workflows by building Docker images with updated dependencies and publishing them to AWS ECR.",
+            "• Achieved 25% unit test coverage for the ELD PDF module using Ruby on Rails and Selenium; containerised updated service dependencies via Docker and published images to AWS ECR, strengthening the team's CI/CD pipeline reliability.",
           ],
           color: "#ee3c26",
         },
@@ -601,11 +566,10 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Karachi, Sindh, Pakistan 74600",
+    subtitle: "Karachi, Pakistan",
     locality: "Karachi",
     country: "Pakistan",
     region: "Sindh",
-    postalCode: "74600",
     avatar_image_path: "address_image.svg",
     // location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
   },

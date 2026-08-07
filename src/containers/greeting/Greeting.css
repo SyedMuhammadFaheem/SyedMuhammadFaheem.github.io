@@ -27,6 +27,7 @@
 }
 .button-greeting-div {
   display: flex;
+  gap: 16px;
   margin-top: 20px;
 }
 
